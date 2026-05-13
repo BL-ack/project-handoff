@@ -1,0 +1,22 @@
+{
+  "name": "project-handoff",
+  "version": "1.0.0",
+  "description": "Claude Code skill — generates a HANDOFF.md session snapshot so you can continue in a new session without losing context",
+  "keywords": ["claude", "claude-code", "skill", "handoff", "context", "session"],
+  "homepage": "https://github.com/BL-ack/project-handoff",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BL-ack/project-handoff.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "project-handoff": "./install.js"
+  },
+  "files": [
+    "install.js",
+    "skill/"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
